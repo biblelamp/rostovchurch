@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule !(\.(gif|jpe?g|png|ico|css|js|php|jar|jad)$) index.php
+
+AddType text/vnd.sun.j2me.app-descriptor;charset=UTF-8 jad
+AddType application/java-archive jar
